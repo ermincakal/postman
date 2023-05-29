@@ -51,11 +51,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://httpbin.org/get?lol=true",
-					"protocol": "http",
+					"raw": "{{url}}/get?lol=true",
 					"host": [
-						"httpbin",
-						"org"
+						"{{url}}"
 					],
 					"path": [
 						"get"
@@ -124,11 +122,9 @@
 					"raw": "{\n    \"something\": \"cool\"\n}"
 				},
 				"url": {
-					"raw": "http://httpbin.org/post",
-					"protocol": "http",
+					"raw": "{{url}}/post",
 					"host": [
-						"httpbin",
-						"org"
+						"{{url}}"
 					],
 					"path": [
 						"post"
@@ -180,11 +176,9 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "http://httpbin.org/delete",
-					"protocol": "http",
+					"raw": "{{url}}/delete",
 					"host": [
-						"httpbin",
-						"org"
+						"{{url}}"
 					],
 					"path": [
 						"delete"
@@ -247,11 +241,9 @@
 					]
 				},
 				"url": {
-					"raw": "http://httpbin.org/put",
-					"protocol": "http",
+					"raw": "{{url}}/put",
 					"host": [
-						"httpbin",
-						"org"
+						"{{url}}"
 					],
 					"path": [
 						"put"
